@@ -42,6 +42,10 @@ public class MyMojo
     @Parameter(defaultValue = "${project.build.directory}", property = "outputDir", required = true)
     private File outputDirectory;
 
+    public static void main(String[] args) {
+        System.out.println("xxx");
+    }
+
     public void execute()
             throws MojoExecutionException {
         File f = outputDirectory;
