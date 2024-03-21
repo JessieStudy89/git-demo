@@ -75,5 +75,6 @@ public class MyMojo
         System.out.println("你好啊");
         System.out.println("dev-v2");
         System.out.println("dev-v3");
+        System.out.println("dev-v4");
     }
 }
