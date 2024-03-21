@@ -43,6 +43,8 @@ public class MyMojo
     private File outputDirectory;
 
     public static void main(String[] args) {
+
+
         System.out.println("xxx");
     }
 
