@@ -74,5 +74,8 @@ public class MyMojo
         System.out.println("hello");
         System.out.println("git....");
         System.out.println("master-v2");
+        System.out.println("你好啊");
+        System.out.println("dev-v2");
+
     }
 }
