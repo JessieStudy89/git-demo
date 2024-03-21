@@ -27,6 +27,8 @@ import org.apache.maven.plugins.annotations.ResolutionScope;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Goal which touches a timestamp file.
@@ -42,11 +44,7 @@ public class MyMojo
     @Parameter(defaultValue = "${project.build.directory}", property = "outputDir", required = true)
     private File outputDirectory;
 
-    public static void main(String[] args) {
 
-
-        System.out.println("xxx");
-    }
 
     public void execute()
             throws MojoExecutionException {
@@ -78,5 +76,7 @@ public class MyMojo
 
     public static void main(String[] args) {
         System.out.println("hello");
+        int[] arr={1,2,3};
+        List<int[]> list = Arrays.asList(arr);
     }
 }
